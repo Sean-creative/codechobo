@@ -1,0 +1,82 @@
+body {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+h1 {
+	margin-top: 100px;
+	font-size: 100px;
+	text-align: center;
+}
+
+body {
+	font-family: '맑은 고딕' 돋움;
+	font-size: 1em;
+	color: #333
+}
+
+.tbl-ex {
+	width: 1200px;
+	height: 700px;
+	margin: 100px auto 0px auto;
+}
+
+.tbl-ex, .tbl-ex th, .tbl-ex td {
+	border: 1px solid gray;
+	border-width: 1px 0;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 8px;
+}
+
+.tbl-ex th {
+	background-color: #999;
+	font-size: 1.1em;
+	color: #fff;
+	border-width: 2px 0;
+}
+
+.tbl-ex td {
+	border-style: dotted;
+}
+
+.tbl-ex tr:hover td {
+	background-color: tomato;
+	cursor: pointer;
+}
+
+.even {
+	background-color: highlight;
+}
+
+li a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 100px;
+	text-decoration: none;
+	background-color: #4CAF50;
+}
+
+li a:hover {
+	background-color: blue;
+}
